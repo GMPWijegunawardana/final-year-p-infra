@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-# Update system
+
 apt update -y
 apt upgrade -y
 
@@ -9,7 +9,6 @@ apt upgrade -y
 apt install -y curl wget apt-transport-https ca-certificates conntrack
 
 
-# Install Docker
 
 apt install -y docker.io
 systemctl enable docker
